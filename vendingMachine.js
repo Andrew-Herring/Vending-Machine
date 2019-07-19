@@ -20,27 +20,30 @@ function vendingMachine() {
 
   // display current inventory (foo.toFixed(2) displays 2nd decimal point for money values)
   document.getElementById("inventory").innerHTML = `
-  <h2>Products:</h2>
+
+  <div id="drink-cards">
 
   <div id="coke-card">
-  <h4>Coca-Cola</h4>
+  <h4 id ="coke-title">Coca-Cola</h4>
   <p id="cokeQuantity">${inventory.coke.quantity} in the machine</p>
   <p>Price: $${inventory.coke.cost.toFixed(2)}</p>
   <button id="cokeBuy">Purchase</button>
   </div>
 
   <div id="sprite-card">
-  <h4>Sprite</h4>
+  <h4 id="sprite-title">Sprite</h4>
   <p id="spriteQuantity">${inventory.sprite.quantity} in the machine</p>
   <p>Price: $${inventory.sprite.cost.toFixed(2)}</p>
   <button id="spriteBuy">Purchase</button>
   </div>
 
-  <div id ="drPepper-card>
-  <h4>Dr. Pepper</h4>
+  <div id ="drPepper-card">
+  <h4 id = "drPepper-title">Dr. Pepper</h4>
   <p id="drPepperQuantity">${inventory.drPepper.quantity} in the machine</p>
   <p>Price: $${inventory.drPepper.cost.toFixed(2)}</p>
   <button id="drPepperBuy">Purchase</button>
+  </div>
+
   </div>
   `
 
