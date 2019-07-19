@@ -1,0 +1,59 @@
+#drink-cards {
+  display: flex;
+}
+
+#credit {
+  display: flex;
+  width: 200px;
+  margin: 15px;
+}
+
+#quarterBtn {
+  display: flex;
+  width: 100px;
+  margin: 15px;
+  padding: 2px 30px; 
+}
+
+#coke-title{
+  color: red;
+}
+
+#coke-card {
+  background-color: whitesmoke;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+
+#sprite-title {
+  color: limegreen;
+}
+
+#sprite-card {
+  background-color: whitesmoke;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+#drPepper-title {
+  color: maroon;
+}
+
+#drPepper-card {
+  background-color: whitesmoke;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
