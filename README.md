@@ -8,7 +8,7 @@ Create a vending machine that dispenses drinks.
   - The machine only takes one coin at a time.
   - Each drink costs exactly $.50.
   - The machine can accept more than $.50 at a time but will only dispense one drink at a time.
-  - change will be returned after each transaction.
+  - Change will be returned after each transaction.
   
 
 ## How to run the code
